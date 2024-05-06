@@ -18,4 +18,14 @@ function submitForm(event) {
     console.log(salaryVal);
 
     let employeeTable = document.querySelector('#employeeData');
+
+    employeeTable.innerHTML += `
+    <tr>
+        <td>${firstNameVal}</td>
+        <td>${lastNameVal}</td>
+        <td>${IDVal}</td>
+        <td>${titleVal}</td>
+        <td>${salaryVal}</td>
+        <td><button onClick="removeData(event)">Delete</button></td>
+    </tr>`;
 }
