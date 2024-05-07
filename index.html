@@ -16,11 +16,11 @@
     <h2>Add Employee</h2>
     <div id="content"></div>
     <form class="salary-form" onSubmit="submitForm(event)">
-      First Name: <input id="firstName-input" type="text" /><br />
-      Last Name: <input id="lastName-input" type="text" /><br />
-      ID: <input id="ID-input" type="number" /><br />
-      Title: <input id="title-input" type="text" /><br />
-      Annual Salary: <input id="salary-input" type="number" /><br />
+      First Name: <input id="firstName-input" type="text" />
+      Last Name: <input id="lastName-input" type="text" />
+      ID: <input id="ID-input" type="number" />
+      Title: <input id="title-input" type="text" />
+      Annual Salary: <input id="salary-input" type="number" />
       <input type="submit" value="Submit" />
 
 
@@ -33,16 +33,26 @@
           <th>ID</th>
           <th>Title</th>
           <th>Annual Salary</th>
+          <th>Delete</th>
         </tr>
       </thead>
       <tbody id="employeeData"></tbody>
       <!-- employee data will be entered here -->
     </table>
     <script src="client.js"></script>
-    
+
   </main>
+  <div>
   <footer>
-    <p>Total Monthly</p>
+    
+    <table id="monthly">
+      <thead>
+        <tr>
+        <th>Total Monthly Salary</th>
+      </tr>
+      </thead>
+    </table>
+  </div>
   </footer>
 
 

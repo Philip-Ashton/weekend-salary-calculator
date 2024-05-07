@@ -37,6 +37,9 @@ function submitForm(event) {
     }
     console.log(totalSalary);
 
+    let monthlySalary = (annualSalary % 12)
+    console.log (monthlySalary);
+
 
 // function totalSalary () {
 //     for (salaryVal i=0; i < salaryVal.length; i++)
