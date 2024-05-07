@@ -29,3 +29,20 @@ function submitForm(event) {
         <td><button onClick="removeData(event)">Delete</button></td>
     </tr>`;
 }
+
+    let annualSalary = [];
+    let totalSalary = 0;
+    for (let i = 0; i < annualSalary.length; i++) {
+        totalSalary += annualSalary[i];
+    }
+    console.log(totalSalary);
+
+
+// function totalSalary () {
+//     for (salaryVal i=0; i < salaryVal.length; i++)
+
+// }
+
+// function salaryTotal(salaryVal) {
+//     let monthlySalary = (sum (salaryVal))
+// }
