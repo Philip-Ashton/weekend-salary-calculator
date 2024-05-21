@@ -30,14 +30,14 @@ function submitForm(event) {
     </tr>`;
 }
 
-    let annualSalary = [];
-    let totalSalary = 0;
+    let annualSalary = 0;
+    let totalSalary = annualSalary += salaryVal;
     for (let i = 0; i < annualSalary.length; i++) {
         totalSalary += annualSalary[i];
     }
     console.log(totalSalary);
 
-    let monthlySalary = (annualSalary % 12)
+    let monthlySalary = (annualSalary / 12);
     console.log (monthlySalary);
 
 
